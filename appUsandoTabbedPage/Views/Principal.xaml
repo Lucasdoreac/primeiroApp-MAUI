@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="appUsandoTabbedPage.Views.Principal"
@@ -14,16 +14,50 @@
                        FontSize="Large"
                        TextColor="Maroon"
                        HorizontalOptions="Center" />
+                <Label Text="~1640s — 1694 · Brasil"
+                       FontSize="Small"
+                       TextColor="Maroon"
+                       HorizontalOptions="Center" />
                 <Image Source="dandarazumbi.png"
                        WidthRequest="250"
                        HeightRequest="250" />
                 <StackLayout Padding="50, 10">
-                    <StackLayout Orientation="Horizontal">      
-                        <Label Text="Dandara foi mulher de Zumbi dos Palmares e mãe de três filhos. Pouco se sabe sobre ela, mas foi descrita como uma grande e valente guerreira que auxiliou Zumbi em estratégias e planos de ataque e defesa. Dominava técnicas da capoeira e lutou em muitas batalhas a ataques a Palmares. Infelizmente, acabou se matando jogando-se da pedreira mais alta de Palmares, para não voltar à condição de escrava."   
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Dandara foi mulher de Zumbi dos Palmares e mãe de três filhos. Pouco se sabe sobre ela, mas foi descrita como uma grande e valente guerreira que auxiliou Zumbi em estratégias e planos de ataque e defesa. Dominava técnicas da capoeira e lutou em muitas batalhas a ataques a Palmares. Infelizmente, acabou se matando jogando-se da pedreira mais alta de Palmares, para não voltar à condição de escrava."
                                HorizontalOptions="FillAndExpand"
                                FontAttributes="Bold"
                                FontSize="Medium"
                                TextColor="Maroon" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Lélia Gonzalez"
+                 IconImageSource="iconlelia.png"
+                 BackgroundImageSource="fundo.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label Text="Nome: Lélia Gonzalez"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="SaddleBrown"
+                       HorizontalOptions="Center" />
+                <Label Text="1935 — 1994 · Brasil"
+                       FontSize="Small"
+                       TextColor="SaddleBrown"
+                       HorizontalOptions="Center" />
+                <Image Source="leliagonzalez.png"
+                       WidthRequest="250"
+                       HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Lélia Gonzalez (1935–1994) foi antropóloga, professora e ativista brasileira, uma das fundadoras do Movimento Negro Unificado (MNU). Criou o conceito de 'Amefricanidade', que reconhece a centralidade da cultura africana na formação da América Latina. Seu pensamento articula raça, gênero e classe a partir da experiência da mulher negra brasileira, sendo referência fundamental do feminismo negro latino-americano."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="SaddleBrown" />
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
@@ -40,16 +74,110 @@
                        FontSize="Large"
                        TextColor="OrangeRed"
                        HorizontalOptions="Center" />
+                <Label Text="1938 · Libéria"
+                       FontSize="Small"
+                       TextColor="OrangeRed"
+                       HorizontalOptions="Center" />
                 <Image Source="ellenjohnsonsirleaf.png"
                        WidthRequest="250"
                        HeightRequest="250" />
                 <StackLayout Padding="50, 10">
-                    <StackLayout Orientation="Horizontal">      
+                    <StackLayout Orientation="Horizontal">
                         <Label Text="É a atual presidente da Libéria, é a primeira mulher a ser eleita chefe de estado de um país africano. Foi eleita pela primeira vez em 2005 e reeleita em 2011, ano em que também ganhou o prêmio Nobel da Paz, pelo seu trabalho como a Primeira Ministra da Libéria."
                                HorizontalOptions="FillAndExpand"
                                FontAttributes="Bold"
                                FontSize="Medium"
                                TextColor="OrangeRed" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Angela Davis"
+                 IconImageSource="iconangela.png"
+                 BackgroundImageSource="fundo.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label Text="Nome: Angela Davis"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="DarkRed"
+                       HorizontalOptions="Center" />
+                <Label Text="1944 · EUA"
+                       FontSize="Small"
+                       TextColor="DarkRed"
+                       HorizontalOptions="Center" />
+                <Image Source="angeladavis.png"
+                       WidthRequest="250"
+                       HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Angela Davis (1944) é ativista, professora e filósofa norte-americana, ícone do movimento pelos direitos civis e da luta abolicionista. Autora de 'Mulheres, Raça e Classe' (1981), foi membro do Partido Comunista e dos Panteras Negras. Presa em 1970 por acusações políticas, sua absolvição foi resultado de uma campanha internacional. Defende o abolicionismo penal e a abolição do sistema prisional como estrutura racista."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="DarkRed" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="bell hooks"
+                 IconImageSource="iconbellhooks.png"
+                 BackgroundImageSource="fundo.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label Text="Nome: bell hooks"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Purple"
+                       HorizontalOptions="Center" />
+                <Label Text="1952 — 2021 · EUA"
+                       FontSize="Small"
+                       TextColor="Purple"
+                       HorizontalOptions="Center" />
+                <Image Source="bellhooks.png"
+                       WidthRequest="250"
+                       HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="bell hooks (1952–2021) foi escritora, professora e ativista feminista norte-americana. Autora de mais de 30 livros, incluindo 'Ensinando a Transgredir' e 'O Feminismo é para Todo Mundo', ela desenvolveu o conceito de feminismo interseccional, que integra raça, gênero e classe como eixos inseparáveis de opressão e libertação. Seu nome em minúsculas era uma escolha política: colocar as ideias acima da identidade individual."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="Purple" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Vandana Shiva"
+                 IconImageSource="iconvandana.png"
+                 BackgroundImageSource="fundo.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label Text="Nome: Vandana Shiva"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="DarkGreen"
+                       HorizontalOptions="Center" />
+                <Label Text="1952 · Índia"
+                       FontSize="Small"
+                       TextColor="DarkGreen"
+                       HorizontalOptions="Center" />
+                <Image Source="vandanashiva.png"
+                       WidthRequest="250"
+                       HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Vandana Shiva (1952) é física, filósofa e ativista ambiental indiana, pioneira do ecosocialismo feminista. Fundadora da Navdanya, organização que preserva sementes tradicionais e promove a agricultura biodiversa, liderou o movimento Chipko de proteção das florestas. Autora de 'Monoculturas da Mente', denuncia como o agronegócio e as patentes de sementes destroem a soberania alimentar dos povos."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="DarkGreen" />
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
@@ -66,16 +194,80 @@
                        FontSize="Large"
                        TextColor="DarkOrange"
                        HorizontalOptions="Center" />
+                <Label Text="1954 · EUA"
+                       FontSize="Small"
+                       TextColor="DarkOrange"
+                       HorizontalOptions="Center" />
                 <Image Source="oprahwinfrey.png"
                        WidthRequest="250"
                        HeightRequest="250" />
                 <StackLayout Padding="50, 10">
-                    <StackLayout Orientation="Horizontal">      
+                    <StackLayout Orientation="Horizontal">
                         <Label Text="Oprah é apresentadora de televisão e empresária, além de ser uma das pessoas mais influentes do mundo. Ganhou múltiplos prêmios Emmy por seu programa de TV, que é o talk-show com maior audiência da história da televisão norte-americana."
                                HorizontalOptions="FillAndExpand"
                                FontAttributes="Bold"
                                FontSize="Medium"
-                               TextColor="DarkOrange" />        
+                               TextColor="DarkOrange" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Marielle Franco"
+                 IconImageSource="iconmarielle.png"
+                 BackgroundImageSource="fundo.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label Text="Nome: Marielle Franco"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Indigo"
+                       HorizontalOptions="Center" />
+                <Label Text="1979 — 2018 · Brasil"
+                       FontSize="Small"
+                       TextColor="Indigo"
+                       HorizontalOptions="Center" />
+                <Image Source="mariellefrancho.png"
+                       WidthRequest="250"
+                       HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Marielle Franco (1979–2018) foi vereadora do Rio de Janeiro, socióloga, ativista dos direitos humanos e mulher negra da favela da Maré. Eleita com mais de 46 mil votos, defendia direitos da população negra, das mulheres e da comunidade LGBTQIA+. Foi assassinada em 14 de março de 2018, tornando-se símbolo global da luta contra o racismo, o machismo e a violência do Estado."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="Indigo" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Djamila Ribeiro"
+                 IconImageSource="icondjamila.png"
+                 BackgroundImageSource="fundo.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label Text="Nome: Djamila Ribeiro"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="DarkViolet"
+                       HorizontalOptions="Center" />
+                <Label Text="1980 · Brasil"
+                       FontSize="Small"
+                       TextColor="DarkViolet"
+                       HorizontalOptions="Center" />
+                <Image Source="djamilaribeiro.png"
+                       WidthRequest="250"
+                       HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Djamila Ribeiro (1980) é filósofa, escritora e ativista brasileira, referência do feminismo negro no Brasil. Autora de 'Lugar de Fala' (2017) e 'Quem tem medo do feminismo negro?' (2018), foi Secretária Municipal de Direitos Humanos de São Paulo. Seu trabalho questiona quem tem o direito de falar sobre determinados temas e a partir de qual posição social, ampliando o debate sobre representatividade e silenciamento."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="DarkViolet" />
                     </StackLayout>
                 </StackLayout>
             </StackLayout>

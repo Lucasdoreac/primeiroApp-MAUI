@@ -35,12 +35,12 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\Images\novoicone.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\novoicone.svg" TintColor="#FFFFFF" ForegroundScale="0.5" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Images\splash2.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#00AB37" BaseSize="178,178" />
 
-		<!-- Images -->
+		<!-- Images — Apostila 06 -->
 		<MauiImage Include="Resources\Images\dandarazumbi.png" />
 		<MauiImage Include="Resources\Images\ellenjohnsonsirleaf.png" />
 		<MauiImage Include="Resources\Images\oprahwinfrey.png" />
@@ -48,6 +48,19 @@
 		<MauiImage Include="Resources\Images\icondandara.png" />
 		<MauiImage Include="Resources\Images\iconellen.png" />
 		<MauiImage Include="Resources\Images\iconoprah.png" />
+		<!-- Images — Novas personalidades -->
+		<MauiImage Include="Resources\Images\bellhooks.png" />
+		<MauiImage Include="Resources\Images\djamilaribeiro.png" />
+		<MauiImage Include="Resources\Images\angeladavis.png" />
+		<MauiImage Include="Resources\Images\leliagonzalez.png" />
+		<MauiImage Include="Resources\Images\mariellefrancho.png" />
+		<MauiImage Include="Resources\Images\vandanashiva.png" />
+		<MauiImage Include="Resources\Images\iconbellhooks.svg" />
+		<MauiImage Include="Resources\Images\icondjamila.svg" />
+		<MauiImage Include="Resources\Images\iconangela.svg" />
+		<MauiImage Include="Resources\Images\iconlelia.svg" />
+		<MauiImage Include="Resources\Images\iconmarielle.svg" />
+		<MauiImage Include="Resources\Images\iconvandana.svg" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
