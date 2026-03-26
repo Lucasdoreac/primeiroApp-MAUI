@@ -12,6 +12,7 @@
                 <Label Text="Nome: Dandara Zumbi"
                        FontAttributes="Bold"
                        FontSize="Large"
+                       TextColor="Maroon"
                        HorizontalOptions="Center" />
                 <Image Source="dandarazumbi.png"
                        WidthRequest="250"
@@ -34,9 +35,10 @@
                  BackgroundImageSource="fundo.png">
         <ScrollView>
             <StackLayout Padding="5, 25">
-                <Label Text="Nome: Ellen Johnson Sirleaf"       
+                <Label Text="Nome: Ellen Johnson Sirleaf"
                        FontAttributes="Bold"
                        FontSize="Large"
+                       TextColor="OrangeRed"
                        HorizontalOptions="Center" />
                 <Image Source="ellenjohnsonsirleaf.png"
                        WidthRequest="250"
@@ -47,7 +49,7 @@
                                HorizontalOptions="FillAndExpand"
                                FontAttributes="Bold"
                                FontSize="Medium"
-                               TextColor="Brown" />
+                               TextColor="OrangeRed" />
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
@@ -62,6 +64,7 @@
                 <Label Text="Nome: Oprah Winfrey"
                        FontAttributes="Bold"
                        FontSize="Large"
+                       TextColor="DarkOrange"
                        HorizontalOptions="Center" />
                 <Image Source="oprahwinfrey.png"
                        WidthRequest="250"
@@ -72,7 +75,7 @@
                                HorizontalOptions="FillAndExpand"
                                FontAttributes="Bold"
                                FontSize="Medium"
-                               TextColor="SaddleBrown" />        
+                               TextColor="DarkOrange" />        
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
