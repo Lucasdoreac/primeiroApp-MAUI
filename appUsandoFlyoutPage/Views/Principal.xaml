@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoFlyoutPage.Views.Principal"
+             Title="Mulheres que Mudaram o Mundo"
+             BackgroundImageSource="fundo.png">
+
+    <Grid RowDefinitions="Auto, *" ColumnDefinitions="200, *">
+
+        <!-- Menu Lateral -->
+        <Frame Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" BackgroundColor="#8B4513" Padding="10">
+            <StackLayout VerticalOptions="Center" Spacing="20">
+                <Image Source="logomulher.svg"
+                       WidthRequest="120"
+                       HeightRequest="120"
+                       HorizontalOptions="Center" />
+
+                <Label Text="Mulheres que Mudaram o Mundo"
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center" />
+
+                <Button Text="Dandara Zumbi"
+                        FontSize="16"
+                        BackgroundColor="#A52A2A"
+                        TextColor="White"
+                        CornerRadius="8"
+                        Clicked="IrParaDandara" />
+
+                <Button Text="Oprah Winfrey"
+                        FontSize="16"
+                        BackgroundColor="#FF8C00"
+                        TextColor="White"
+                        CornerRadius="8"
+                        Clicked="IrParaOprah" />
+            </StackLayout>
+        </Frame>
+
+        <!-- Área de Conteúdo -->
+        <ContentView Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" x:Name="ContentArea">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Selecione uma mulher no menu lateral"
+                       FontSize="24"
+                       TextColor="Maroon"
+                       HorizontalTextAlignment="Center" />
+            </StackLayout>
+        </ContentView>
+
+    </Grid>
+
+</ContentPage>

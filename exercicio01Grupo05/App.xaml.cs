@@ -1,4 +1,4 @@
-namespace exercicio01Grupo05;
+﻿namespace exercicio01Grupo05;
 
 public partial class App : Application
 {
@@ -9,6 +9,6 @@ public partial class App : Application
 
     protected override Window CreateWindow(IActivationState? activationState)
     {
-        return new Window(new Principal());
+        return new Window(new NovaPagina());
     }
 }
