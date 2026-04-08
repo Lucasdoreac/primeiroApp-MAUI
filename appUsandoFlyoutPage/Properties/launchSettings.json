@@ -3,6 +3,10 @@
     "Windows Machine": {
       "commandName": "MsixPackage",
       "nativeDebugging": false
+    },
+    "appUsandoFlyoutPage": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
     }
   }
 }
