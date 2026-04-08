@@ -63,10 +63,10 @@ C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\logomulher.scale-150.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\logomulher.scale-125.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\logomulher.scale-100.png
-C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\dandarazumbi.scale-100.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\oprahwinfrey.scale-100.png
-C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\iconoprah.scale-100.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\icondandara.scale-100.png
+C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\iconoprah.scale-100.png
+C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\dandarazumbi.scale-100.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\appUsandoFlyoutPage.exe
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\appUsandoFlyoutPage.deps.json
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\bin\Debug\net10.0-windows10.0.19041.0\appUsandoFlyoutPage.runtimeconfig.json
@@ -247,10 +247,10 @@ C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\logomulher.scale-150.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\logomulher.scale-125.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\logomulher.scale-100.png
-C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\dandarazumbi.scale-100.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\oprahwinfrey.scale-100.png
-C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\iconoprah.scale-100.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\icondandara.scale-100.png
+C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\iconoprah.scale-100.png
+C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\resizetizer\r\dandarazumbi.scale-100.png
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\mauiimage.stamp
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\mauiimage.outputs
 C:\GitHub\ExemplosApp\appUsandoFlyoutPage\obj\Debug\net10.0-windows10.0.19041.0\appUsandoFlyoutPage.AssemblyInfoInputs.cache

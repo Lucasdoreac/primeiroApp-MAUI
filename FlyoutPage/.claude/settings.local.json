@@ -25,7 +25,8 @@
       "Bash(rm -f /c/temp/appUsandoFlyoutPage.log)",
       "Bash(timeout 5 ./appUsandoFlyoutPage.exe)",
       "Bash(timeout 10 ./appUsandoFlyoutPage.exe)",
-      "Bash(xargs cat:*)"
+      "Bash(xargs cat:*)",
+      "Bash(timeout 15 ./appUsandoFlyoutPage.exe)"
     ]
   }
 }

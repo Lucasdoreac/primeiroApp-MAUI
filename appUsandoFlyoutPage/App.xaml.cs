@@ -8,13 +8,13 @@ public partial class App : Application
     {
         try
         {
-            Logger.Log("App: Constructor started");
+            ConsoleLogger.Log("App: Constructor started");
             InitializeComponent();
-            Logger.Log("App: InitializeComponent completed successfully");
+            ConsoleLogger.Log("App: InitializeComponent completed successfully");
         }
         catch (Exception ex)
         {
-            Logger.LogException(ex);
+            ConsoleLogger.LogException(ex);
             throw;
         }
     }
@@ -23,16 +23,16 @@ public partial class App : Application
     {
         try
         {
-            Logger.Log("CreateWindow: Starting...");
-            var mainPage = new NavigationPage(new Principal());
-            Logger.Log("CreateWindow: MainPage created successfully");
-            var window = new Window(mainPage);
-            Logger.Log("CreateWindow: Window created successfully");
+            ConsoleLogger.Log("CreateWindow: Starting...");
+            var flyoutPage = new MinhaFlyoutPage();
+            ConsoleLogger.Log("CreateWindow: MinhaFlyoutPage created successfully");
+            var window = new Window(flyoutPage);
+            ConsoleLogger.Log("CreateWindow: Window created successfully");
             return window;
         }
         catch (Exception ex)
         {
-            Logger.LogException(ex);
+            ConsoleLogger.LogException(ex);
             throw;
         }
     }
