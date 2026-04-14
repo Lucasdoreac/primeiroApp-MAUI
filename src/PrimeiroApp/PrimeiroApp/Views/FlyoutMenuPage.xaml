@@ -1,48 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PrimeiroApp.Views.FlyoutMenuPage"
+             x:Class="appUsandoEntry.Views.FlyoutMenuPage"
              BackgroundImageSource="fundo.png"
              Title="Menu">
 
     <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-        <Image Source="logomulher.svg"
+        <Image Source="logocarro.png"
                WidthRequest="150"
                HeightRequest="150"
                HorizontalOptions="Center" />
 
-        <Label Text="Mulheres que Mudaram o Mundo"
+        <Label Text="🚗 Usando Entry"
                FontAttributes="Bold"
                FontSize="Title"
                TextColor="Maroon"
                HorizontalOptions="Center"
                Margin="0, 20, 0, 40" />
 
-        <Button Text="🏠 Início"
-                FontSize="18"
-                BackgroundColor="#8B4513"
-                TextColor="White"
-                CornerRadius="10"
-                Margin="0, 10"
-                Clicked="GoToHome" />
-
-        <Button Text="👚 Perfil"
-                FontSize="18"
-                BackgroundColor="#8B4513"
-                TextColor="White"
-                CornerRadius="10"
-                Margin="0, 10"
-                Clicked="GoToProfile" />
-
-        <Button Text="⚙️ Configurações"
-                FontSize="18"
-                BackgroundColor="#8B4513"
-                TextColor="White"
-                CornerRadius="10"
-                Margin="0, 10"
-                Clicked="GoToSettings" />
-
-        <Button Text="📚 Todas as Mulheres"
+        <Button Text="👚 Mulheres que Mudaram o Mundo"
                 FontSize="18"
                 BackgroundColor="#8B4513"
                 TextColor="White"
@@ -58,7 +34,7 @@
                 Margin="0, 10"
                 Clicked="GoToNovaApostila" />
 
-        <Button Text="📚 Apostila 07"
+        <Button Text="📚 Apostila 07 - Demo"
                 FontSize="18"
                 BackgroundColor="#4682B4"
                 TextColor="White"

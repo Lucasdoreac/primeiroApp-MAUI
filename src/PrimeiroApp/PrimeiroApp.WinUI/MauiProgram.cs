@@ -1,4 +1,4 @@
-﻿namespace PrimeiroApp.WinUI;
+﻿namespace appUsandoEntry.WinUI;
 
 public static class MauiProgram
 {

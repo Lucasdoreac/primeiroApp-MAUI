@@ -1,42 +1,12 @@
-using PrimeiroApp.Views;
+using appUsandoEntry.Views;
 
-namespace PrimeiroApp.Views;
+namespace appUsandoEntry.Views;
 
 public partial class FlyoutMenuPage : ContentPage
 {
 	public FlyoutMenuPage()
 	{
 		InitializeComponent();
-	}
-
-	private void GoToHome(object sender, EventArgs e)
-	{
-		var flyoutPage = Parent as FlyoutPage;
-		if (flyoutPage != null)
-		{
-			flyoutPage.Detail = new NavigationPage(new MainPage());
-			flyoutPage.IsPresented = false;
-		}
-	}
-
-	private void GoToProfile(object sender, EventArgs e)
-	{
-		var flyoutPage = Parent as FlyoutPage;
-		if (flyoutPage != null)
-		{
-			flyoutPage.Detail = new NavigationPage(new ProfilePage());
-			flyoutPage.IsPresented = false;
-		}
-	}
-
-	private void GoToSettings(object sender, EventArgs e)
-	{
-		var flyoutPage = Parent as FlyoutPage;
-		if (flyoutPage != null)
-		{
-			flyoutPage.Detail = new NavigationPage(new SettingsPage());
-			flyoutPage.IsPresented = false;
-		}
 	}
 
 	private void GoToMulheres(object sender, EventArgs e)
@@ -74,7 +44,7 @@ public partial class FlyoutMenuPage : ContentPage
 		var flyoutPage = Parent as FlyoutPage;
 		if (flyoutPage != null)
 		{
-			flyoutPage.Detail = new NavigationPage(new CadastroDeCarrosPage());
+			flyoutPage.Detail = new NavigationPage(new CadastroDeCarros());
 			flyoutPage.IsPresented = false;
 		}
 	}

@@ -9,8 +9,7 @@
       "PrimeiroApp/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": "8.0.1",
-          "Microsoft.Maui.Controls": "8.0.100",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.100"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.7"
         },
         "runtime": {
           "PrimeiroApp.dll": {}
@@ -24,7 +23,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.23.53103",
+            "localPath": "Microsoft.Extensions.Configuration.dll"
           }
         }
       },
@@ -35,7 +35,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.23.53103",
+            "localPath": "Microsoft.Extensions.Configuration.Abstractions.dll"
           }
         }
       },
@@ -46,7 +47,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "fileVersion": "8.0.1024.46610",
+            "localPath": "Microsoft.Extensions.DependencyInjection.dll"
           }
         }
       },
@@ -54,7 +56,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "fileVersion": "8.0.1024.46610",
+            "localPath": "Microsoft.Extensions.DependencyInjection.Abstractions.dll"
           }
         }
       },
@@ -67,7 +70,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "fileVersion": "8.0.1024.46610",
+            "localPath": "Microsoft.Extensions.Logging.dll"
           }
         }
       },
@@ -78,7 +82,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "fileVersion": "8.0.1024.46610",
+            "localPath": "Microsoft.Extensions.Logging.Abstractions.dll"
           }
         }
       },
@@ -91,7 +96,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "fileVersion": "8.0.1024.46610",
+            "localPath": "Microsoft.Extensions.Logging.Debug.dll"
           }
         }
       },
@@ -103,7 +109,8 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.224.6711"
+            "fileVersion": "8.0.224.6711",
+            "localPath": "Microsoft.Extensions.Options.dll"
           }
         }
       },
@@ -111,206 +118,232 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.23.53103",
+            "localPath": "Microsoft.Extensions.Primitives.dll"
           }
         }
       },
-      "Microsoft.Maui.Controls/8.0.100": {
-        "dependencies": {
-          "Microsoft.Maui.Controls.Build.Tasks": "8.0.100",
-          "Microsoft.Maui.Controls.Core": "8.0.100",
-          "Microsoft.Maui.Controls.Xaml": "8.0.100",
-          "Microsoft.Maui.Resizetizer": "8.0.100"
-        }
-      },
-      "Microsoft.Maui.Controls.Build.Tasks/8.0.100": {
-        "dependencies": {
-          "Microsoft.Maui.Controls.Core": "8.0.100",
-          "Microsoft.Maui.Controls.Xaml": "8.0.100"
-        }
-      },
-      "Microsoft.Maui.Controls.Compatibility/8.0.100": {
+      "Microsoft.Maui.Controls.Compatibility/8.0.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "Microsoft.Maui.Controls.Core": "8.0.100",
-          "Microsoft.Maui.Controls.Xaml": "8.0.100"
+          "Microsoft.Maui.Controls.Core": "8.0.7",
+          "Microsoft.Maui.Controls.Xaml": "8.0.7"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Maui.Controls.Compatibility.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.1.24.55705"
+            "fileVersion": "8.0.7.0",
+            "localPath": "Microsoft.Maui.Controls.Compatibility.dll"
           }
         }
       },
-      "Microsoft.Maui.Controls.Core/8.0.100": {
+      "Microsoft.Maui.Controls.Core/8.0.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Logging": "8.0.1",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "Microsoft.Maui.Core": "8.0.100"
+          "Microsoft.Maui.Core": "8.0.7"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Maui.Controls.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.1.24.55705"
+            "fileVersion": "8.0.7.0",
+            "localPath": "Microsoft.Maui.Controls.dll"
           }
         },
         "resources": {
           "lib/net8.0/ar/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ar"
+            "locale": "ar",
+            "localPath": "ar/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/ca/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ca"
+            "locale": "ca",
+            "localPath": "ca/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/cs/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "cs"
+            "locale": "cs",
+            "localPath": "cs/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/da/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "da"
+            "locale": "da",
+            "localPath": "da/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/de/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "de"
+            "locale": "de",
+            "localPath": "de/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/el/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "el"
+            "locale": "el",
+            "localPath": "el/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/es/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "es"
+            "locale": "es",
+            "localPath": "es/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/fi/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "fi"
+            "locale": "fi",
+            "localPath": "fi/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/fr/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "fr"
+            "locale": "fr",
+            "localPath": "fr/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/he/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "he"
+            "locale": "he",
+            "localPath": "he/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/hi/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "hi"
+            "locale": "hi",
+            "localPath": "hi/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/hr/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "hr"
+            "locale": "hr",
+            "localPath": "hr/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/hu/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "hu"
+            "locale": "hu",
+            "localPath": "hu/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/id/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "id"
+            "locale": "id",
+            "localPath": "id/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/it/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "it"
+            "locale": "it",
+            "localPath": "it/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/ja/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ja"
+            "locale": "ja",
+            "localPath": "ja/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/ko/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ko"
+            "locale": "ko",
+            "localPath": "ko/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/ms/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ms"
+            "locale": "ms",
+            "localPath": "ms/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/nb/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "nb"
+            "locale": "nb",
+            "localPath": "nb/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/nl/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "nl"
+            "locale": "nl",
+            "localPath": "nl/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/pl/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "pl"
+            "locale": "pl",
+            "localPath": "pl/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "pt-BR"
+            "locale": "pt-BR",
+            "localPath": "pt-BR/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/pt/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "pt"
+            "locale": "pt",
+            "localPath": "pt/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/ro/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ro"
+            "locale": "ro",
+            "localPath": "ro/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/ru/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "ru"
+            "locale": "ru",
+            "localPath": "ru/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/sk/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "sk"
+            "locale": "sk",
+            "localPath": "sk/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/sv/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "sv"
+            "locale": "sv",
+            "localPath": "sv/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/th/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "th"
+            "locale": "th",
+            "localPath": "th/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/tr/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "tr"
+            "locale": "tr",
+            "localPath": "tr/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/uk/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "uk"
+            "locale": "uk",
+            "localPath": "uk/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/vi/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "vi"
+            "locale": "vi",
+            "localPath": "vi/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "zh-HK"
+            "locale": "zh-HK",
+            "localPath": "zh-HK/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "zh-Hans"
+            "locale": "zh-Hans",
+            "localPath": "zh-Hans/Microsoft.Maui.Controls.resources.dll"
           },
           "lib/net8.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
-            "locale": "zh-Hant"
+            "locale": "zh-Hant",
+            "localPath": "zh-Hant/Microsoft.Maui.Controls.resources.dll"
           }
         }
       },
-      "Microsoft.Maui.Controls.Xaml/8.0.100": {
+      "Microsoft.Maui.Controls.Xaml/8.0.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
-          "Microsoft.Maui.Controls.Core": "8.0.100",
-          "Microsoft.Maui.Core": "8.0.100"
+          "Microsoft.Maui.Controls.Core": "8.0.7",
+          "Microsoft.Maui.Core": "8.0.7"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Maui.Controls.Xaml.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.1.24.55705"
+            "fileVersion": "8.0.7.0",
+            "localPath": "Microsoft.Maui.Controls.Xaml.dll"
           }
         }
       },
-      "Microsoft.Maui.Core/8.0.100": {
+      "Microsoft.Maui.Core/8.0.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Logging": "8.0.1",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "Microsoft.Maui.Essentials": "8.0.100",
-          "Microsoft.Maui.Graphics": "8.0.100"
+          "Microsoft.Maui.Essentials": "8.0.7",
+          "Microsoft.Maui.Graphics": "8.0.7"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Maui.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.1.24.55705"
+            "fileVersion": "8.0.7.0",
+            "localPath": "Microsoft.Maui.dll"
           }
         }
       },
-      "Microsoft.Maui.Essentials/8.0.100": {
+      "Microsoft.Maui.Essentials/8.0.7": {
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.100"
+          "Microsoft.Maui.Graphics": "8.0.7"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Maui.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.1.24.55705"
+            "fileVersion": "8.0.7.0",
+            "localPath": "Microsoft.Maui.Essentials.dll"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.100": {
+      "Microsoft.Maui.Graphics/8.0.7": {
         "runtime": {
           "lib/net8.0/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.1.24.55705"
+            "fileVersion": "8.0.7.0",
+            "localPath": "Microsoft.Maui.Graphics.dll"
           }
         }
-      },
-      "Microsoft.Maui.Resizetizer/8.0.100": {}
+      }
     }
   },
   "libraries": {
@@ -382,68 +415,47 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls/8.0.100": {
+    "Microsoft.Maui.Controls.Compatibility/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5t51qYH1m1bZX1+VLKcTqEuUBWY0NiVM6eYhQa7B0wNNzgP07Mo1ZKikdFprUm4oGgJL5lbOe2OeH+2D0afQfA==",
-      "path": "microsoft.maui.controls/8.0.100",
-      "hashPath": "microsoft.maui.controls.8.0.100.nupkg.sha512"
+      "sha512": "sha512-jKn7m+8BevPWeJ57i9vjpELEozOw4tROgGNWrRpHgZ7YHwIslw5+eQrJwZr54+1m6MDLPe/F9Tw8s25VXQJTag==",
+      "path": "microsoft.maui.controls.compatibility/8.0.7",
+      "hashPath": "microsoft.maui.controls.compatibility.8.0.7.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Build.Tasks/8.0.100": {
+    "Microsoft.Maui.Controls.Core/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fxN4/f6teRh+4j1WE8kqvt8O4B88z2637179dT4aZGFkDiMWBsfxOn+jjrDgwMIVyjFdCrGgtBUfrV9M7+AfnA==",
-      "path": "microsoft.maui.controls.build.tasks/8.0.100",
-      "hashPath": "microsoft.maui.controls.build.tasks.8.0.100.nupkg.sha512"
+      "sha512": "sha512-N2b9M6cVlg9H8k0Otj/WgDQA5ldyIgQK23yoWkzSGLRahbkbFLYsOgSDy2RouhxLPyvuLx1xP4JZ+e7EXLmoIg==",
+      "path": "microsoft.maui.controls.core/8.0.7",
+      "hashPath": "microsoft.maui.controls.core.8.0.7.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Compatibility/8.0.100": {
+    "Microsoft.Maui.Controls.Xaml/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-G1tJJGPX/FQKzdgSlts3lk0LACN3GBgvqoKizqf57ly6DwAS/T8h6fn2tnVvGAuQOZFx07ZAWSY9wDuIxEd0vA==",
-      "path": "microsoft.maui.controls.compatibility/8.0.100",
-      "hashPath": "microsoft.maui.controls.compatibility.8.0.100.nupkg.sha512"
+      "sha512": "sha512-Q1LE63kHjJvZGucJxX2Pj3b6BXp2XBZvncixwdcNlh9LCPzKeW13ws+IknOe+vrKetO1XHro5b+Zfyv0ZPVfzA==",
+      "path": "microsoft.maui.controls.xaml/8.0.7",
+      "hashPath": "microsoft.maui.controls.xaml.8.0.7.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Core/8.0.100": {
+    "Microsoft.Maui.Core/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LD4OSnfTN++obDYj2ldioTETIOI6jRZfZWpPydfPl/RCo3A2kadP6eL1SuuJdPafEgMP8UASdTXXCouY0LeFUA==",
-      "path": "microsoft.maui.controls.core/8.0.100",
-      "hashPath": "microsoft.maui.controls.core.8.0.100.nupkg.sha512"
+      "sha512": "sha512-KkaKtW9skWeanVeH35ozAV8ZpHh3wJMI3Imez/p/dT6QxrdSqG3GJexD5XXiijyNmt2+o2p7F7gqRfHG0PAUsg==",
+      "path": "microsoft.maui.core/8.0.7",
+      "hashPath": "microsoft.maui.core.8.0.7.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Xaml/8.0.100": {
+    "Microsoft.Maui.Essentials/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GBfjikOi5FBkpQKcYQnzYwImcYMKGR0eSFGcE8rThc9VBaPGGoRq9ttMEGuY5QclVs7NtSmaYpf38ShGLbLcqw==",
-      "path": "microsoft.maui.controls.xaml/8.0.100",
-      "hashPath": "microsoft.maui.controls.xaml.8.0.100.nupkg.sha512"
+      "sha512": "sha512-jD0Bn1bWFgVrKb7TL1WtlxoB+CbAUyFJRlR7SPPvHm5Ct3mU/Q4n/01qoauRlVfMBq/CDU2cfulDbeORuHY0IQ==",
+      "path": "microsoft.maui.essentials/8.0.7",
+      "hashPath": "microsoft.maui.essentials.8.0.7.nupkg.sha512"
     },
-    "Microsoft.Maui.Core/8.0.100": {
+    "Microsoft.Maui.Graphics/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vo3/EKN62z5/UtIzb7gkUk0ssrzrRN27ihVeBlE0vhby1LrY29SKDBvHzEgLqmG/heT0pPeELNaeF6yInjHYvw==",
-      "path": "microsoft.maui.core/8.0.100",
-      "hashPath": "microsoft.maui.core.8.0.100.nupkg.sha512"
-    },
-    "Microsoft.Maui.Essentials/8.0.100": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-quiPMYj10eDiKUkHLEEKAjuI0SAn7ZeZohmrh90Ebdl6fz4hVdDCmVfFyITGLtNbbSpkXvNJpeZwOWp2H5V9kQ==",
-      "path": "microsoft.maui.essentials/8.0.100",
-      "hashPath": "microsoft.maui.essentials.8.0.100.nupkg.sha512"
-    },
-    "Microsoft.Maui.Graphics/8.0.100": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FRvNIXnALXysAw0t0R5jmS4j4qs2n/NaWMcLrinMIoC2tQ/QIL68XEdN1OCtFRWvME8cR180TwSxpEjAIvlebA==",
-      "path": "microsoft.maui.graphics/8.0.100",
-      "hashPath": "microsoft.maui.graphics.8.0.100.nupkg.sha512"
-    },
-    "Microsoft.Maui.Resizetizer/8.0.100": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wEVBLYTe/tu30z9yR+tFupXiixqMaxkSp/xqC7FGlV6g9MvYo/wAcwTO+XWay2k/ug5qlxz6MXt5mEac7FMLmA==",
-      "path": "microsoft.maui.resizetizer/8.0.100",
-      "hashPath": "microsoft.maui.resizetizer.8.0.100.nupkg.sha512"
+      "sha512": "sha512-QTVeQHDyvXk3zA3ymhw3w6Rf8g5iOyq8OY58a3c+E+DnOQgZ7bps/qMPzqVvgyICQ/GgbvHxnOCna+N3YiWiDw==",
+      "path": "microsoft.maui.graphics/8.0.7",
+      "hashPath": "microsoft.maui.graphics.8.0.7.nupkg.sha512"
     }
   }
 }

@@ -1,6 +1,6 @@
-﻿using PrimeiroApp.Views;
+﻿using appUsandoEntry.Views;
 
-namespace PrimeiroApp;
+namespace appUsandoEntry;
 
 public partial class App : Application
 {

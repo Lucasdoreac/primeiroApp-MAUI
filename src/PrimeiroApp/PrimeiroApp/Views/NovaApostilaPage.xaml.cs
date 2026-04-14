@@ -1,6 +1,6 @@
-using PrimeiroApp.Views;
+using appUsandoEntry.Views;
 
-namespace PrimeiroApp.Views;
+namespace appUsandoEntry.Views;
 
 public partial class NovaApostilaPage : ContentPage
 {
