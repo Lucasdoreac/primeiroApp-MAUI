@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:PrimeiroApp.Views"
+             x:Class="PrimeiroApp.Views.MainFlyoutPage"
+             FlyoutLayoutBehavior="Popover">
+
+    <FlyoutPage.Flyout>
+        <views:FlyoutMenuPage />
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage Title="Bem-vindo">
+                    <StackLayout Padding="20" Spacing="10">
+                        <Label Text="🏠 Bem-vindo ao App"
+                               FontAttributes="Bold"
+                               FontSize="Title"
+                               HorizontalOptions="Center"
+                               TextColor="Maroon" />
+                        <Label Text="Use o menu lateral para navegar"
+                               HorizontalOptions="Center"
+                               TextColor="DarkRed" />
+                    </StackLayout>
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+
+</FlyoutPage>
