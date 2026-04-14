@@ -1,4 +1,4 @@
-﻿namespace PrimeiroApp.iOS;
+﻿namespace appUsandoEntry.iOS;
 
 public static class MauiProgram
 {

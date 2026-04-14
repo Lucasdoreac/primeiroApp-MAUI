@@ -1,8 +1,8 @@
-namespace PrimeiroApp.Views;
+namespace appUsandoEntry.Views;
 
-public partial class CadastroDeCarrosPage : ContentPage
+public partial class CadastroDeCarros : ContentPage
 {
-	public CadastroDeCarrosPage()
+	public CadastroDeCarros()
 	{
 		InitializeComponent();
 	}

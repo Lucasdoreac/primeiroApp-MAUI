@@ -1,4 +1,4 @@
-namespace PrimeiroApp.Views;
+namespace appUsandoEntry.Views;
 
 public partial class Apostila07Page : ContentPage
 {
