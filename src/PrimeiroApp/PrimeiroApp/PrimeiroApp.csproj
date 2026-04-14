@@ -9,7 +9,7 @@
 
 			<!-- Configurações conforme Apostila 07 -->
 			<ApplicationTitle>Usando Entry</ApplicationTitle>
-			<ApplicationId>br.edu.udf</ApplicationId>
+			<ApplicationId>br.edu.udf.appusandoentry</ApplicationId>
 			<ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
 			<ApplicationVersion>100</ApplicationVersion>
 		<Nullable>enable</Nullable>
