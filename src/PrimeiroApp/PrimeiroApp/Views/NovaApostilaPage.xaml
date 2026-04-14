@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimeiroApp.Views.NovaApostilaPage"
+             Title="Nova Apostila"
+             BackgroundImageSource="fundo.png">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <!-- Header -->
+            <Frame BackgroundColor="#8B4513"
+                   CornerRadius="15"
+                   Padding="20"
+                   HasShadow="True">
+                <StackLayout>
+                    <Label Text="📚 Nova Apostila"
+                           FontAttributes="Bold"
+                           FontSize="Title"
+                           TextColor="White"
+                           HorizontalOptions="Center" />
+                    <Label Text="Preparado para a aula de hoje"
+                           FontSize="Small"
+                           TextColor="White"
+                           HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Status -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="10"
+                   Padding="15"
+                   HasShadow="True">
+                <StackLayout Spacing="10">
+                    <Label Text="✅ Estrutura Pronta"
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Green" />
+                    <Label Text="• 9 páginas do TabbedPage consolidadas"
+                           TextColor="Maroon" />
+                    <Label Text="• FlyoutPage com menu lateral integrado"
+                           TextColor="Maroon" />
+                    <Label Text="• Todos os assets visuais (514 imagens)"
+                           TextColor="Maroon" />
+                    <Label Text="• Cores WCAG 2.1 AA compliant"
+                           TextColor="Maroon" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Informações -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="10"
+                   Padding="15"
+                   HasShadow="True">
+                <StackLayout Spacing="10">
+                    <Label Text="📋 Informações do Curso"
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Maroon" />
+                    <Label Text="Curso: Programação para Dispositivos Móveis 2026"
+                           FontSize="Small"
+                           TextColor="DarkRed" />
+                    <Label Text="Data: 14/04/2026"
+                           FontSize="Small"
+                           TextColor="DarkRed" />
+                    <Label Text="Status: Pronto para demonstração"
+                           FontSize="Small"
+                           TextColor="Green" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Espaço para novo conteúdo -->
+            <Frame BackgroundColor="#FEDEDD"
+                   CornerRadius="10"
+                   Padding="15"
+                   HasShadow="True">
+                <StackLayout Spacing="10">
+                    <Label Text="🎯 Espaço Reservado"
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Maroon"
+                           HorizontalOptions="Center" />
+                    <Label Text="Este espaço está preparado para receber"
+                           TextColor="Maroon"
+                           HorizontalOptions="Center" />
+                    <Label Text="o novo conteúdo da apostila de hoje."
+                           TextColor="Maroon"
+                           HorizontalOptions="Center" />
+                    <Label Text="Basta adicionar o conteúdo aqui!"
+                           FontAttributes="Italic"
+                           TextColor="SaddleBrown"
+                           HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Botões -->
+            <Button Text="🏠 Voltar ao Menu"
+                    FontSize="18"
+                    BackgroundColor="#8B4513"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Margin="0, 20"
+                    Clicked="GoToMenu" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
