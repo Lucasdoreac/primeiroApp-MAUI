@@ -23,7 +23,7 @@
                HorizontalOptions="Center"
                Margin="0, 0, 0, 40" />
 
-        <Button Text="🔍 Demonstração de Entry"
+        <Button Text="Página Principal"
                 FontSize="18"
                 BackgroundColor="#4682B4"
                 TextColor="White"
@@ -31,7 +31,7 @@
                 Margin="0, 10"
                 Clicked="irPaginaPrincipal" />
 
-        <Button Text="🚗 Cadastro de Carros"
+        <Button Text="Cadastro de Carros"
                 FontSize="18"
                 BackgroundColor="#FF8C00"
                 TextColor="White"

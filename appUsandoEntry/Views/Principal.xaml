@@ -21,92 +21,57 @@
                    TextColor="DarkRed"
                    HorizontalOptions="Center" />
 
-            <!-- Entry Básico -->
-            <Frame BackgroundColor="White" CornerRadius="10" Padding="15" Margin="0,10,0,0">
+            <!-- Entry com ClearButton (Laranja) -->
+            <Frame BackgroundColor="Orange" CornerRadius="10" Padding="15" Margin="0,10,0,0">
                 <StackLayout Spacing="10">
-                    <Label Text="1. Entry Básico" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="Digite seu texto aqui" />
-                </StackLayout>
-            </Frame>
-
-            <!-- Entry com Placeholder Customizado -->
-            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
-                <StackLayout Spacing="10">
-                    <Label Text="2. Entry com Placeholder" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="Nome Completo"
-                           PlaceholderColor="Gray" />
+                    <Label Text="1. Entry com Botão Limpar (Laranja)" FontAttributes="Bold" TextColor="White" />
+                    <Entry Placeholder="Digite algo para ver o X"
+                           ClearButtonVisibility="WhileEditing"
+                           BackgroundColor="LightYellow" />
                 </StackLayout>
             </Frame>
 
             <!-- Entry Senha -->
             <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
                 <StackLayout Spacing="10">
-                    <Label Text="3. Entry Senha (IsPassword)" FontAttributes="Bold" TextColor="Maroon" />
+                    <Label Text="2. Entry Senha" FontAttributes="Bold" TextColor="Maroon" />
                     <Entry Placeholder="Digite sua senha"
                            IsPassword="true" />
                 </StackLayout>
             </Frame>
 
-            <!-- Entry Readonly -->
+            <!-- Entry Padrão -->
             <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
                 <StackLayout Spacing="10">
-                    <Label Text="4. Entry Somente Leitura" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Text="Este campo não pode ser editado"
-                           IsReadOnly="true" />
+                    <Label Text="3. Entry Padrão" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Texto padrão" />
                 </StackLayout>
             </Frame>
 
             <!-- Entry Desabilitado -->
             <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
                 <StackLayout Spacing="10">
-                    <Label Text="5. Entry Desabilitado" FontAttributes="Bold" TextColor="Maroon" />
+                    <Label Text="4. Entry Desabilitado" FontAttributes="Bold" TextColor="Maroon" />
                     <Entry Text="Campo desabilitado"
                            IsEnabled="false" />
                 </StackLayout>
             </Frame>
 
-            <!-- Entry com ClearButton -->
+            <!-- Entry Somente Leitura -->
             <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
                 <StackLayout Spacing="10">
-                    <Label Text="6. Entry com Botão Limpar" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="Digite algo para ver o X"
-                           ClearButtonVisibility="WhileEditing" />
+                    <Label Text="5. Entry Somente Leitura" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Text="Este campo não pode ser editado"
+                           IsReadOnly="true" />
                 </StackLayout>
             </Frame>
 
-            <!-- Entry Maiúsculas -->
+            <!-- Entry com Placeholder -->
             <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
                 <StackLayout Spacing="10">
-                    <Label Text="7. Entry Maiúsculas" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="Texto em maiúsculas"
-                           TextTransform="Uppercase" />
-                </StackLayout>
-            </Frame>
-
-            <!-- Entry Numérico -->
-            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
-                <StackLayout Spacing="10">
-                    <Label Text="8. Entry Numérico" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="Digite apenas números"
-                           Keyboard="Numeric" />
-                </StackLayout>
-            </Frame>
-
-            <!-- Entry Email -->
-            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
-                <StackLayout Spacing="10">
-                    <Label Text="9. Entry Email" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="seu@email.com"
-                           Keyboard="Email" />
-                </StackLayout>
-            </Frame>
-
-            <!-- Entry Telefone -->
-            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
-                <StackLayout Spacing="10">
-                    <Label Text="10. Entry Telefone" FontAttributes="Bold" TextColor="Maroon" />
-                    <Entry Placeholder="(00) 00000-0000"
-                           Keyboard="Telephone" />
+                    <Label Text="6. Entry com Placeholder" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Nome Completo"
+                           PlaceholderColor="Gray" />
                 </StackLayout>
             </Frame>
 

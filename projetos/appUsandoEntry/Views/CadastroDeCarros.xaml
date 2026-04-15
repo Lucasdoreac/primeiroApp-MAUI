@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoEntry.Views.CadastroDeCarros"
+             BackgroundImageSource="fundocarro.png"
+             Title="Cadastro de Carros">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="Center" Padding="6">
+            <StackLayout>
+                <!-- Campo Nome do Carro -->
+                <Border Stroke="YellowGreen" Padding="10,5" StrokeShape="RoundRectangle 8,0">
+                    <Entry x:Name="txtNomeCarro" Placeholder="Nome do Carro"
+                           BackgroundColor="YellowGreen" TextColor="White"
+                           FontAttributes="Bold" ClearButtonVisibility="WhileEditing"/>
+                </Border>
+                <!-- Campo Placa do Carro -->
+                <Border Stroke="YellowGreen" Padding="10,5" StrokeShape="RoundRectangle 8,0">
+                    <Entry x:Name="txtPlacaCarro" Placeholder="Placa do Carro"
+                           BackgroundColor="YellowGreen" TextColor="White" FontAttributes="Bold"
+                           TextTransform="Uppercase" ClearButtonVisibility="WhileEditing"/>
+                </Border>
+            </StackLayout>
+
+            <!-- Botões de Ação -->
+            <StackLayout Orientation="Horizontal" Padding="10" HorizontalOptions="Center">
+                <Button x:Name="btnExibirDados" Text="Exibir Dados" Clicked="exibirDadosClicked"
+                        BackgroundColor="YellowGreen" FontAttributes="Bold" Margin="4"/>
+                <Button x:Name="btnLimpar" Text="Limpar" Clicked="limparDadosClicked"
+                        BackgroundColor="YellowGreen" FontAttributes="Bold" Margin="4"/>
+                <Button x:Name="btnSair" Text="Sair" Clicked="sairClicked"
+                        BackgroundColor="YellowGreen" FontAttributes="Bold" Margin="4"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

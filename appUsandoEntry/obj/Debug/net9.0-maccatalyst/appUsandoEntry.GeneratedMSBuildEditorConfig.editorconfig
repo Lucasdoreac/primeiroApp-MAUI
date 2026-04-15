@@ -56,12 +56,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = appUsandoEntry.Views.Menu.
 build_metadata.AdditionalFiles.TargetPath = Views/Menu.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/Menu.xaml
 
-[/Users/lucascardoso/dotnet-maui/appUsandoEntry/Views/MinhaFlyoutPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = appUsandoEntry.Views.MinhaFlyoutPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/MinhaFlyoutPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/MinhaFlyoutPage.xaml
-
 [/Users/lucascardoso/dotnet-maui/appUsandoEntry/Views/Principal.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = appUsandoEntry.Views.Principal.xaml
