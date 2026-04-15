@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoFlyoutPage.Views.Menu"
+             BackgroundImageSource="fundo.png">
+
+    <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+        <Image Source="logomulher.svg"
+               WidthRequest="150"
+               HeightRequest="150"
+               HorizontalOptions="Center" />
+
+        <Label Text="Mulheres que Mudaram o Mundo"
+               FontAttributes="Bold"
+               FontSize="Title"
+               TextColor="Maroon"
+               HorizontalOptions="Center"
+               Margin="0, 20, 0, 40" />
+
+        <Button Text="Dandara Zumbi"
+                FontSize="18"
+                BackgroundColor="#8B4513"
+                TextColor="White"
+                CornerRadius="10"
+                Margin="0, 10"
+                Clicked="irPaginaDandara" />
+
+        <Button Text="Oprah Winfrey"
+                FontSize="18"
+                BackgroundColor="#FF8C00"
+                TextColor="White"
+                CornerRadius="10"
+                Margin="0, 10"
+                Clicked="irPaginaOprah" />
+    </StackLayout>
+
+</ContentPage>

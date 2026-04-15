@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show:*)",
+      "Bash(curl -LsSf https://astral.sh/uv/install.sh)",
+      "Bash(sh)",
+      "Bash(dotnet new:*)",
+      "Bash(start:*)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(dotnet clean:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet run:*)",
+      "Bash(tasklist)",
+      "Bash(/c/Program Files/Microsoft Visual Studio/26/Common7/IDE/vswhere.exe:*)",
+      "Bash(/c/Program Files/Microsoft Visual Studio/26/Community/Common7/IDE/devenv.exe:*)",
+      "Bash(dotnet workload install:*)",
+      "Bash(grep -E \"\\(Sucesso|Falha|Success|Failed|Done$\\)\")",
+      "Bash(winget install:*)",
+      "Bash(dotnet workload:*)",
+      "Bash(curl -L -o /tmp/WindowsAppSDK.zip \"https://github.com/microsoft/WindowsAppSDK/releases/download/v1.5.240227000/WindowsAppSDK_1.5.240227000.zip\")",
+      "Bash(powershell.exe:*)",
+      "Bash(dotnet publish:*)",
+      "Bash(cmd:*)",
+      "Bash(rm -f /c/temp/appUsandoFlyoutPage.log)",
+      "Bash(timeout 5 ./appUsandoFlyoutPage.exe)",
+      "Bash(timeout 10 ./appUsandoFlyoutPage.exe)",
+      "Bash(xargs cat:*)",
+      "Bash(timeout 15 ./appUsandoFlyoutPage.exe)"
+    ]
+  }
+}
