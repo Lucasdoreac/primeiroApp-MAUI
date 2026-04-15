@@ -9,13 +9,13 @@ public partial class FlyoutPageMenu : ContentPage
         InitializeComponent();
     }
 
-    private void IrParaDandara(object sender, EventArgs e)
+    private void IrParaPrincipal(object sender, EventArgs e)
     {
-        ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Dandara());
+        ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Principal());
     }
 
-    private void IrParaOprah(object sender, EventArgs e)
+    private void IrParaCadastroCarros(object sender, EventArgs e)
     {
-        ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Oprah());
+        ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new CadastroDeCarros());
     }
 }

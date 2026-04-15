@@ -24,8 +24,8 @@ public partial class App : Application
         try
         {
             ConsoleLogger.Log("CreateWindow: Starting...");
-            var flyoutPage = new FlyoutPageMenu();
-            ConsoleLogger.Log("CreateWindow: FlyoutPageMenu created successfully");
+            var flyoutPage = new MinhaFlyoutPage();
+            ConsoleLogger.Log("CreateWindow: MinhaFlyoutPage created successfully");
             var window = new Window(flyoutPage);
             ConsoleLogger.Log("CreateWindow: Window created successfully");
             return window;

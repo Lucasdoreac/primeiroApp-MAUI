@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoEntry.Views.Principal"
+             Title="Demonstração de Entry Controls"
+             BackgroundImageSource="fundo.png">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Título -->
+            <Label Text="🎯 CONTROLES ENTRY"
+                   FontAttributes="Bold"
+                   FontSize="Title"
+                   TextColor="Maroon"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+
+            <Label Text="Apostila 07 - Views That Initiate Commands"
+                   FontSize="Small"
+                   TextColor="DarkRed"
+                   HorizontalOptions="Center" />
+
+            <!-- Entry Básico -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15" Margin="0,10,0,0">
+                <StackLayout Spacing="10">
+                    <Label Text="1. Entry Básico" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Digite seu texto aqui" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry com Placeholder Customizado -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="2. Entry com Placeholder" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Nome Completo"
+                           PlaceholderColor="Gray" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Senha -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="3. Entry Senha (IsPassword)" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Digite sua senha"
+                           IsPassword="true" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Readonly -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="4. Entry Somente Leitura" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Text="Este campo não pode ser editado"
+                           IsReadOnly="true" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Desabilitado -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="5. Entry Desabilitado" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Text="Campo desabilitado"
+                           IsEnabled="false" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry com ClearButton -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="6. Entry com Botão Limpar" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Digite algo para ver o X"
+                           ClearButtonVisibility="WhileEditing" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Maiúsculas -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="7. Entry Maiúsculas" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Texto em maiúsculas"
+                           TextTransform="Uppercase" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Numérico -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="8. Entry Numérico" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="Digite apenas números"
+                           Keyboard="Numeric" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Email -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="9. Entry Email" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="seu@email.com"
+                           Keyboard="Email" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Entry Telefone -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+                <StackLayout Spacing="10">
+                    <Label Text="10. Entry Telefone" FontAttributes="Bold" TextColor="Maroon" />
+                    <Entry Placeholder="(00) 00000-0000"
+                           Keyboard="Telephone" />
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

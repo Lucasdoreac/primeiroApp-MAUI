@@ -12,7 +12,7 @@
     <FlyoutPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <paginas:Dandara />
+                <paginas:Principal />
             </x:Arguments>
         </NavigationPage>
     </FlyoutPage.Detail>

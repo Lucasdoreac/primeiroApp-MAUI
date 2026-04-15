@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__notebooklm-mcp__notebook_query",
+      "Bash(dotnet new maui *)",
+      "Bash(dotnet build *)"
+    ]
+  }
+}
