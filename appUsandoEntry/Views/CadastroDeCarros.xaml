@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoEntry.Views.CadastroDeCarros"
+             Title="Cadastro de Carros"
+             BackgroundColor="CadetBlue"
+             BackgroundImageSource="fundocarro.png">
+
+    <ScrollView>
+        <StackLayout Spacing="20" Margin="25">
+
+            <!-- Título -->
+            <Image Source="logocarro.png"
+                   WidthRequest="120"
+                   HeightRequest="120"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+
+            <Label Text="🚗 CADASTRO DE CARROS"
+                   FontAttributes="Bold"
+                   FontSize="Title"
+                   TextColor="Maroon"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Apostila 07 - Views That Initiate Commands"
+                   FontSize="Small"
+                   TextColor="DarkRed"
+                   HorizontalOptions="Center" />
+
+            <!-- Formulário -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="20"
+                   HasShadow="True"
+                   Margin="0,20,0,0">
+
+                <StackLayout Spacing="15">
+
+                    <!-- Nome do Carro -->
+                    <StackLayout Spacing="5">
+                        <Label Text="Nome do Carro:"
+                               FontAttributes="Bold"
+                               TextColor="Maroon" />
+                        <Entry Placeholder="Nome do Carro"
+                               x:Name="txtNomeCarro"
+                               BackgroundColor="YellowGreen"
+                               TextColor="White"
+                               FontAttributes="Bold"
+                               TextTransform="Uppercase"
+                               ClearButtonVisibility="WhileEditing" />
+                    </StackLayout>
+
+                    <!-- Placa do Carro -->
+                    <StackLayout Spacing="5">
+                        <Label Text="Placa do Carro:"
+                               FontAttributes="Bold"
+                               TextColor="Maroon" />
+                        <Entry Placeholder="Placa do Carro"
+                               x:Name="txtPlacaCarro"
+                               BackgroundColor="YellowGreen"
+                               TextColor="White"
+                               FontAttributes="Bold"
+                               TextTransform="Uppercase"
+                               ClearButtonVisibility="WhileEditing" />
+                    </StackLayout>
+
+                    <!-- Ano do Carro -->
+                    <StackLayout Spacing="5">
+                        <Label Text="Ano do Carro:"
+                               FontAttributes="Bold"
+                               TextColor="Maroon" />
+                        <Entry Placeholder="Ano"
+                               x:Name="txtAnoCarro"
+                               BackgroundColor="YellowGreen"
+                               TextColor="White"
+                               FontAttributes="Bold"
+                               Keyboard="Numeric"
+                               MaxLength="4" />
+                    </StackLayout>
+
+                    <!-- Botões conforme apostila -->
+                    <StackLayout Orientation="Horizontal"
+                                Padding="10"
+                                HorizontalOptions="Center"
+                                Spacing="10">
+
+                        <Button Text="Exibir Dados"
+                                x:Name="btnExibirDados"
+                                Clicked="exibirDadosClicked"
+                                BackgroundColor="YellowGreen"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                Margin="4"
+                                HorizontalOptions="Center" />
+
+                        <Button Text="Limpar"
+                                x:Name="btnLimpar"
+                                Clicked="limparDadosClicked"
+                                BackgroundColor="YellowGreen"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                Margin="4"
+                                HorizontalOptions="Center" />
+
+                        <Button Text="Sair"
+                                x:Name="btnSair"
+                                Clicked="sairClicked"
+                                BackgroundColor="YellowGreen"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                Margin="4"
+                                HorizontalOptions="Center" />
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Frame>
+
+            <!-- Informações -->
+            <Frame BackgroundColor="#FEDEDD"
+                   CornerRadius="10"
+                   Padding="15"
+                   HasShadow="True">
+
+                <StackLayout Spacing="10">
+                    <Label Text="📚 Conceitos Demonstrados:"
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Maroon" />
+
+                    <Label Text="✅ Button - Clicked Event"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ Entry - Text Editing"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ Placeholder - Help Text"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ TextTransform - Uppercase"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ ClearButtonVisibility - X Button"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ Keyboard - Numeric"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ Validation - IsNullOrWhiteSpace"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ DisplayAlert - Show Messages"
+                           TextColor="DarkRed" />
+                    <Label Text="✅ Focus() - User Experience"
+                           TextColor="DarkRed" />
+                </StackLayout>
+
+            </Frame>
+
+            <!-- Footer -->
+            <Label Text="Apostila 07 - Exemplo: Cadastro de Carros"
+                   FontSize="Micro"
+                   TextColor="DarkRed"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,0" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
