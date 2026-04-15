@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="primeiroApp.NovaPagina">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            BackgroundColor="#F5F5F5">
+
+            <Label
+                Text="Minha Primeira Tela Personalizada"
+                Style="{StaticResource Headline}"
+                TextColor="#512BD4"
+                SemanticProperties.HeadingLevel="Level1"
+                Margin="0,20,0,0" />
+
+            <Label
+                Text="Esta é uma página criada do zero!"
+                Style="{StaticResource SubHeadline}"
+                TextColor="#333333"
+                SemanticProperties.HeadingLevel="Level2" />
+
+            <Image
+                Source="bemvindo.svg"
+                HeightRequest="200"
+                Aspect="AspectFit"
+                Margin="0,20,0,0" />
+
+            <Button
+                Text="Clique em Mim!"
+                BackgroundColor="#512BD4"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="20,10"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
