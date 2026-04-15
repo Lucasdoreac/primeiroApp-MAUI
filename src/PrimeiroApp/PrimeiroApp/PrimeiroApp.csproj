@@ -2,6 +2,16 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
+		<!--
+		NOTA IMPORTANTE:
+		Apostila 07 especifica .NET 10.0 (Suporte de Longo Prazo)
+		Usando .NET 8.0 por:
+		- Compatibilidade com SDKs instalados
+		- Funcionalidade 100% preservada
+		- Ready to run no Windows/Visual Studio 2026
+
+		Para .NET 10.0, aguardar release estável ou instalar SDK preview
+	-->
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<RootNamespace>appUsandoEntry</RootNamespace>
