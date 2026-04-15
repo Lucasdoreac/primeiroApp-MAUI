@@ -1,8 +1,0 @@
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/actool/_PartialAppManifest.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/actool/_BundleResourceWithLogicalName.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/actool/_ProcessedImageAssetsPath.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/coremlc/_PartialAppManifest.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/coremlc/_BundleResourceWithLogicalName.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/_ProcessedBundleResourcesPath.items
-/Users/lucascardoso/dotnet-maui/src/PrimeiroApp/PrimeiroApp/obj/Debug/net8.0-maccatalyst/_ProcessedContentPath.items
