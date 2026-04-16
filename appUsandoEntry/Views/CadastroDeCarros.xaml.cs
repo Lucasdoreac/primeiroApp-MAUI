@@ -12,7 +12,7 @@ public partial class CadastroDeCarros : ContentPage
 		// Validação do campo Nome do Carro
 		if (string.IsNullOrWhiteSpace(txtNomeCarro.Text))
 		{
-			await DisplayAlert("Erro", "Verifique se a caixa de texto Nome do Carro está vazia!!!", "OK");
+			await DisplayAlert("Erro", "Verifique se a caixa de texto Nome do Carro está vazia!!!!", "OK");
 			txtNomeCarro.Focus();
 			return;
 		}
@@ -20,7 +20,7 @@ public partial class CadastroDeCarros : ContentPage
 		// Validação do campo Placa do Carro
 		if (string.IsNullOrWhiteSpace(txtPlacaCarro.Text))
 		{
-			await DisplayAlert("Erro", "Verifique se a caixa de texto Placa do Carro está vazia!!!", "OK");
+			await DisplayAlert("Erro", "Verifique se a caixa de texto Placa do Carro está vazia!!!!", "OK");
 			txtPlacaCarro.Focus();
 			return;
 		}
@@ -28,7 +28,7 @@ public partial class CadastroDeCarros : ContentPage
 		// Validação do campo Ano do Carro
 		if (string.IsNullOrWhiteSpace(txtAnoCarro.Text))
 		{
-			await DisplayAlert("Erro", "Verifique se a caixa de texto Ano do Carro está vazia!!!", "OK");
+			await DisplayAlert("Erro", "Verifique se a caixa de texto Ano do Carro está vazia!!!!", "OK");
 			txtAnoCarro.Focus();
 			return;
 		}

@@ -1,28 +1,62 @@
 {
   "version": 2,
-  "dgSpecHash": "LRUlPf9/HoU=",
+  "dgSpecHash": "dzJyIlOrs6g=",
   "success": true,
   "projectFilePath": "/Users/lucascardoso/dotnet-maui/appUsandoEntry/appUsandoEntry.csproj",
   "expectedPackageFiles": [
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.logging.debug/9.0.0/microsoft.extensions.logging.debug.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls/9.0.0/microsoft.maui.controls.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls.build.tasks/9.0.0/microsoft.maui.controls.build.tasks.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls.core/9.0.0/microsoft.maui.controls.core.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls.xaml/9.0.0/microsoft.maui.controls.xaml.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.core/9.0.0/microsoft.maui.core.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.essentials/9.0.0/microsoft.maui.essentials.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.graphics/9.0.0/microsoft.maui.graphics.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.maui.resizetizer/9.0.0/microsoft.maui.resizetizer.9.0.0.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.net.illink.tasks/9.0.6/microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
-    "/Users/lucascardoso/.nuget/packages/microsoft.netcore.app.ref/9.0.14/microsoft.netcore.app.ref.9.0.14.nupkg.sha512"
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.configuration/10.0.0-preview.4.25258.110/microsoft.extensions.configuration.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.configuration.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.0-preview.4.25258.110/microsoft.extensions.dependencyinjection.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.diagnostics.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.fileproviders.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.hosting.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.hosting.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.logging/10.0.0-preview.4.25258.110/microsoft.extensions.logging.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.logging.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.logging.debug/10.0.0-preview.3.25171.5/microsoft.extensions.logging.debug.10.0.0-preview.3.25171.5.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.options/10.0.0-preview.4.25258.110/microsoft.extensions.options.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.extensions.primitives/10.0.0-preview.4.25258.110/microsoft.extensions.primitives.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls/10.0.0-preview.4.25259.2/microsoft.maui.controls.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls.build.tasks/10.0.0-preview.4.25259.2/microsoft.maui.controls.build.tasks.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls.core/10.0.0-preview.4.25259.2/microsoft.maui.controls.core.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.controls.xaml/10.0.0-preview.4.25259.2/microsoft.maui.controls.xaml.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.core/10.0.0-preview.4.25259.2/microsoft.maui.core.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.essentials/10.0.0-preview.4.25259.2/microsoft.maui.essentials.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.graphics/10.0.0-preview.4.25259.2/microsoft.maui.graphics.10.0.0-preview.4.25259.2.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maui.resizetizer/10.0.0-preview.4.25263.4/microsoft.maui.resizetizer.10.0.0-preview.4.25263.4.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.net.illink.tasks/10.0.5/microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.netcore.app.ref/10.0.5/microsoft.netcore.app.ref.10.0.5.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.5/microsoft.aspnetcore.app.ref.10.0.5.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maccatalyst.ref.net10.0_26.2/26.2.10233/microsoft.maccatalyst.ref.net10.0_26.2.26.2.10233.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maccatalyst.runtime.maccatalyst.net10.0_26.2/26.2.10233/microsoft.maccatalyst.runtime.maccatalyst.net10.0_26.2.26.2.10233.nupkg.sha512",
+    "/Users/lucascardoso/.nuget/packages/microsoft.maccatalyst.runtime.maccatalyst-arm64.net10.0_26.2/26.2.10233/microsoft.maccatalyst.runtime.maccatalyst-arm64.net10.0_26.2.26.2.10233.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "appUsandoEntry depends on Microsoft.Maui.Controls (>= 10.0.0-preview.3.26207.106) but Microsoft.Maui.Controls 10.0.0-preview.3.26207.106 was not found. Microsoft.Maui.Controls 10.0.0-preview.4.25259.2 was resolved instead.",
+      "projectPath": "/Users/lucascardoso/dotnet-maui/appUsandoEntry/appUsandoEntry.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/lucascardoso/dotnet-maui/appUsandoEntry/appUsandoEntry.csproj",
+      "libraryId": "Microsoft.Maui.Controls",
+      "targetGraphs": [
+        "net10.0-maccatalyst",
+        "net10.0-maccatalyst/maccatalyst-arm64"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Microsoft.Maui.Controls 10.0.0-preview.4.25259.2 depends on Microsoft.Maui.Resizetizer (>= 10.0.0-preview.4.25259.2) but Microsoft.Maui.Resizetizer 10.0.0-preview.4.25259.2 was not found. Microsoft.Maui.Resizetizer 10.0.0-preview.4.25263.4 was resolved instead.",
+      "projectPath": "/Users/lucascardoso/dotnet-maui/appUsandoEntry/appUsandoEntry.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/lucascardoso/dotnet-maui/appUsandoEntry/appUsandoEntry.csproj",
+      "libraryId": "Microsoft.Maui.Resizetizer",
+      "targetGraphs": [
+        "net10.0-maccatalyst",
+        "net10.0-maccatalyst/maccatalyst-arm64"
+      ]
+    }
+  ]
 }

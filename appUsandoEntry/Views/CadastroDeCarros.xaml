@@ -16,7 +16,7 @@
                    HorizontalOptions="Center"
                    Margin="0,20,0,20" />
 
-            <Label Text="🚗 CADASTRO DE CARROS"
+            <Label Text="CADASTRO DE CARROS"
                    FontAttributes="Bold"
                    FontSize="Title"
                    TextColor="Maroon"
@@ -140,12 +140,6 @@
                     <Label Text="✅ ClearButtonVisibility - X Button"
                            TextColor="DarkRed" />
                     <Label Text="✅ Keyboard - Numeric"
-                           TextColor="DarkRed" />
-                    <Label Text="✅ Validation - IsNullOrWhiteSpace"
-                           TextColor="DarkRed" />
-                    <Label Text="✅ DisplayAlert - Show Messages"
-                           TextColor="DarkRed" />
-                    <Label Text="✅ Focus() - User Experience"
                            TextColor="DarkRed" />
                 </StackLayout>
 
