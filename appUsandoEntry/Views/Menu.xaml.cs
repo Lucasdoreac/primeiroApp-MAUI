@@ -9,21 +9,12 @@ public partial class Menu : ContentPage
         InitializeComponent();
     }
 
-    private void irPaginaDandara(object sender, EventArgs e)
+    private void irPaginaPrincipal(object sender, EventArgs e)
     {
         var flyoutPage = Application.Current.Windows[0].Page as FlyoutPage;
         if (flyoutPage != null)
         {
-            flyoutPage.Detail = new NavigationPage(new Dandara());
-        }
-    }
-
-    private void irPaginaOprah(object sender, EventArgs e)
-    {
-        var flyoutPage = Application.Current.Windows[0].Page as FlyoutPage;
-        if (flyoutPage != null)
-        {
-            flyoutPage.Detail = new NavigationPage(new Oprah());
+            flyoutPage.Detail = new NavigationPage(new Principal());
         }
     }
 

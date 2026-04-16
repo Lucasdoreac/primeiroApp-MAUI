@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__notebooklm-mcp__notebook_query",
+      "Bash(dotnet new maui *)",
+      "Bash(dotnet build *)",
+      "Bash(sed -i '' 's/primeiroApp/appUsandoFlyoutPage/g' appUsandoFlyoutPage.csproj)",
+      "Bash(sed -i '' 's/Primeiro Aplicativo/Usando FlyoutPage/g' appUsandoFlyoutPage.csproj)",
+      "Bash(sed -i '' 's/br\\\\.edu\\\\.udf\\\\.primeiroapp/br\\\\.edu\\\\.udf/g' appUsandoFlyoutPage.csproj)",
+      "Bash(sed -i '' 's/primeiroApp/appUsandoEntry/g' appUsandoEntry.csproj)",
+      "Bash(sed -i '' 's/Primeiro Aplicativo/Usando Entry/g' appUsandoEntry.csproj)",
+      "Bash(sed -i '' 's/br\\\\.edu\\\\.udf\\\\.primeiroapp/br\\\\.edu\\\\.udf\\\\.appusandoentry/g' appUsandoEntry.csproj)"
+    ]
+  }
+}
